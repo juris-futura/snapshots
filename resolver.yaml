@@ -1,0 +1,192 @@
+# exact copy of lts-gittags/snapshot-2020-10-07c.yaml
+resolver: lts-16.27
+
+name: gittags-master-snapshot
+
+packages:
+- git: git@github.com:juris-futura/lib-constraint-utilities
+  commit: 1a4d38365a5bb2ecb7976c1b743cf6338c648b54
+  # tag: v1.1.2, package.yaml ver:1.1.2
+
+- git: git@github.com:juris-futura/lib-extensible-sp
+  commit: c9f20986c67361695309071743f41d4dcec15406
+  # tag: v1.3.7, package.yaml v.1.3.7
+
+- git: git@github.com:juris-futura/lib-hkd
+  commit: b08e3adb966526b8925f14762e59eafec6cc8635
+  # tag: v2.1.1, package.yaml 2.1.1
+
+- git: git@github.com:juris-futura/lib-semantic-arrow
+  commit: 3ffc459a2ec25df0be06e429d9198dcd50cc338d
+  # tag: v0.2.4.1, package.yaml ver:2.4.1
+
+- git: git@github.com:juris-futura/lib-basics
+  commit: 472d3597b533aba6c5cb63e08ff2db0ca91908c6
+  # tag: v0.5.11.0, package.yaml ver:0.5.11.0
+
+- git: git@github.com:juris-futura/lib-calendar
+  commit: dc172ae60116a3e60c561f911dcd2c0defe9aab5
+  # tag: v0.1.1.0, package.yaml ver:0.1.1.0
+
+- git: git@github.com:juris-futura/lib-dynamic
+  commit: a2f9dbaad7b690125be3aafd99bf36f469d005da
+  # tag: v2.3.2, package.yaml ver:0.2.3.2
+
+- git: git@github.com:juris-futura/lib-assemble
+  commit: 3f8cfbfc23568dcec1655c098bdbff2fdcddd565
+  # tag: v2.3.1, package.yaml ver:2.3.1
+
+# Update 01-11-21
+
+- git: git@github.com:juris-futura/lib-web-combinators
+  commit: dd30388446652d87f2484c690793692d1248c24a
+  # tag: v0.1.11.0-snpsht.2020-10-07, package.yaml ver:0.1.11.0
+
+- git: git@github.com:juris-futura/lib-servant-client-arrow
+  commit: 93dc52e35d40b56be8e2eb378a888424313263b0
+  # tag: v0.1.1.0-snpsht.2020-08-04, package.yaml ver:0.1.1.0
+
+- git: git@github.com:juris-futura/lib-azure-ds
+  commit: cc85be8b07d00f153c7b9facb872c6399f5524b9
+  # tag: v0.2.6.0-snpsht.2020-07-13, package.yaml ver:0.2.6.0
+
+- git: git@github.com:juris-futura/lib-nexus-types
+  commit: f30586ea9bd9e3cc003aeaed051a8a4b0322ee9b
+  # tag: v0.1.1.1-snpsht.2020-10-07, package.yaml ver:0.1.1.1
+
+# Update 01-12-21
+
+- git: git@github.com:juris-futura/lib-patent-prosecution
+  commit: 3090e0e51875a6f1bb3ba0d88b9d6fcf3a3f6083
+  # tag: v5.0.0, package.yaml ver:5.0.0
+
+- git: git@github.com:juris-futura/api-fetch-documents
+  commit: 1e1395a6cf4dea5f5483519db0268549cdc4d34e
+  # tag: v0.1.3.0-snpsht.2020-10-07, package.yaml ver:0.1.3.0
+
+- git: git@github.com:juris-futura/lib-template-client
+  commit: 679a2632202c2c613a75d48b85ce1da364d822f5
+  # tag: v0.1.2.7-snpsht.2020-07-14, package.yaml ver:0.1.2.7
+
+- git: git@github.com:juris-futura/api-template
+  commit: c07e650ae63a44c99b0cddfa85c6d2d8781bd3c6
+  # tag: v0.1.1.0-snpsht.2020-07-14, package.yaml ver:0.1.1.0
+
+- git: git@github.com:juris-futura/lib-hh-services
+  commit: 257e9e12b4d1af7ef0b8dd82988de19cbffaf616
+  # tag: v0.7.0.0, package.yaml ver:0.7.0.0
+
+- git: git@github.com:juris-futura/lib-fragment
+  commit: ca41a94732fb7cccc91676bb496260c765c2f658
+  # tag: v0.1.1.0-snpsht.2020-07-13, package.yaml ver:0.1.1.0
+
+- git: git@github.com:juris-futura/lib-tree-parser
+  commit: 54e229468034046d1526b75695abf4c4127c027e
+  # tag (not latest): v0.1.3.0-snpsht.2020-07-13, package.yaml ver:0.1.3.0
+
+- git: git@github.com:juris-futura/lib-common
+  commit: d2b22bb217d7e8130086ab791fb9e705914efb84
+  # tag: v0.1.0.0-snpsht.2020-07-20, package.yaml ver:0.1.0.0
+
+# - git: git@github.com:juris-futura/lib-dbofp
+#   commit: febb8ac88537778329e51698c9fa314e41f0228b
+#   # tag: v0.1.0.1-snpsht.2020-07-13, package.yaml ver:0.1.0.1
+# - git: git@github.com:juris-futura/lib-data
+#   commit: d6a56616339171e97eeaf0fbcb9bf9b3f81ddd1b
+#   # tag: v0.3.1.1-snpsht.2020-07-13, package.yaml ver:0.3.1.1
+# - git: git@github.com:juris-futura/lib-email
+#   commit: d37ad277dc9cec9aa507f3a6cadc12276de1151a
+#   # tag: v0.2.0.0-snpsht.2020-10-07, package.yaml ver:0.2.0.0
+# - git: git@github.com:juris-futura/lib-message
+#   commit: be153d855e30ecce0c601ca9b6fc690f052042f4
+#   # tag: v0.5.6.0-rc.1, package.yaml ver:0.5.6.0
+# - git: git@github.com:juris-futura/lib-router
+#   commit: 9c2f4eeb0a798b32ce19a6fb33c3d4ac1880cd6b
+#   # tag: v0.4.2.1-snpsht.2020-10-07, package.yaml ver:0.4.2.1
+# - git: git@github.com:juris-futura/lib-platform
+#   commit: 7e6354342672f330a7876d4e86109d9f81386235
+#   # tag: v0.7.2.0, package.yaml ver:0.7.2.0
+# - git: git@github.com:juris-futura/lib-patent-prosecution
+#   commit: 02e39abb4909f49c83c1730f272402cb0e4a116b
+#   # tag: v0.4.0.0-snpsht.2020-08-04, package.yaml ver:0.4.0.0
+# - git: git@github.com:juris-futura/lib-date-parser
+#   commit: 2a2e4b9248651216611d7523e6a60f8347ab7f2f
+#   # tag: v0.1.0.1, package.yaml ver:0.1.0.1
+# - git: git@github.com:juris-futura/lib-patent-claims-parser
+#   commit: bceef78361a888196a1bc7016d9d49523f0a6b37
+#   # tag: v1.4.0-rc.7, package.yaml ver:0.1.4.0
+# - git: git@github.com:juris-futura/lib-nexus-types
+#   commit: 2b77d8a6da3029a19e62cecb336dd87e49de9f82
+#   # tag: v0.1.1.1-snpsht.2020-10-07, package.yaml ver:0.1.1.1
+# - git: git@github.com:juris-futura/api-fetch-patents
+#   commit: 4f63100203e27704f12359ad1adb78b70697a584
+#   # tag: v0.1.0.0-snpsht.2020-07-13, package.yaml ver:0.1.0.0
+# - git: git@github.com:juris-futura/api-oa-response
+#   commit: 61a6dde0c89b1f5c2779eddafd603d0ffe46b9a2
+#   # tag (not latest): v0.2.0.0, package.yaml ver:0.2.0.0
+# - git: git@github.com:juris-futura/api-oa-response-email
+#   commit: 2457d44232fad58769f8a4761ffede78ac23225e
+#   # tag: v0.1.0.0-snpsht.2020-07-13, package.yaml ver:0.1.0.0
+# - git: git@github.com:juris-futura/api-ocr
+#   commit: d126e9c6acc6b20fa432aa8598a62ff1b06ad802
+#   # tag: v0.1.0.2, package.yaml ver:0.1.0.2
+# - git: git@github.com:juris-futura/api-patent-claims
+#   commit: 44fbc25befe3e096a9f900a206cd9409c78cacec
+#   # tag: v1.2.0-rc.3, package.yaml ver:1.2.0
+# - git: git@github.com:juris-futura/api-docket-alarm
+#   commit: 09632044ec06237ff28ee8019f84751b28cbaebf
+#   # tag: v0.1.1.0, package.yaml ver:0.1.1.0
+# - git: git@github.com:juris-futura/api-scribe
+#   commit: 02559469a22676316863d65aa29cb0444d414f0b
+#   # tag: v0.1.3.0-snpsht.2020-07-13, package.yaml ver:0.1.3.0
+# - git: git@github.com:juris-futura/api-aderant
+#   commit: 097f6100ee150a78be99402a6d049c0339499c84
+#   # tag: v0.2.0.0-snpsht.2020-08-04, package.yaml ver:0.2.0.0
+# - git: git@github.com:juris-futura/api-entity-extract
+#   commit: 06515bdb65dc92f361a2363f71fa4059d9d670d0
+#   # tag: v0.2.1.4-snpsht.2020-07-13, package.yaml ver:0.2.1.4
+# - git: git@github.com:juris-futura/api-recommendation
+#   commit: a1b0d1e8be4ca5ead537de44f4aed4a7eff8154a
+#   # tag: v0.2.0.0-snpsht.2020-07-13, package.yaml ver:0.2.0.0
+# - git: git@github.com:juris-futura/api-config
+#   commit: 817d5c689a9ad6e8a7cf8e19fe70a0ed1e2fdd6d
+#   # tag: v1.0.0, package.yaml ver:0.1.0.0
+# - git: git@github.com:juris-futura/api-worksite
+#   commit: 0d6e134ee7b514691da91cb127d070074fde0f64
+#   # tag: v0.1.0.0-snpsht.2020-07-13, package.yaml ver:0.1.0.0
+# - git: git@github.com:juris-futura/api-learning
+#   commit: 16dd8434d485a8e470e6d693a21aeab3f9ae9bad
+#   # tag: v1.1.0-rc.15, package.yaml ver:1.1.0
+# - git: git@github.com:juris-futura/api-complete
+#   commit: c6c9e91f214a59c794068d85df87494e33ab6148
+#   # tag (not latest): v0.0.0.1-snpsht.2020-07-13, package.yaml ver:0.0.0.1
+# - git: git@github.com:juris-futura/api-audit-auto
+#   commit: bdf4649cbaefb92357af2a24ae486a42258df057
+#   # tag: v0.1.0.0-snpsht.2020-07-13, package.yaml ver:0.1.0.0
+
+# # - third party
+- guid-0.1.0
+- mime-0.4.0.2
+
+- stm-containers-1.2
+- stm-hamt-1.2.0.4
+- primitive-extras-0.8
+- primitive-unlifted-0.1.3.0
+- primitive-0.7.1.0
+
+- Hungarian-Munkres-0.1.5
+# - base64-bytestring-type-1
+# - QuickCheck-2.11.3
+# - servant-auth-0.3.2.0
+# - servant-auth-server-0.4.0.1
+- type-level-sets-0.8.9.0
+- servant-multipart-0.12 # @sha256:aa81dd0478270ade4a21b75611d5bc9cce8107df2e89c37b9964a3421629825d,2761
+- servant-options-0.1.0.0 # @sha256:39f50166a68006250e79370372f553ca476f14d06d93fa0c401050253aeba803,914
+- typed-encoding-0.5.2.2 # @sha256:03f6d85d3ec3c033c4e0170b7e7a4d2b3c92f6f25efbe6c5a63a86512119bcd6,5260
+
+
+- symbols-0.3.0.0
+- git: git@github.com:juris-futura/sendgrid-v3
+  commit: 8ec5e851311890856199024b45e719efed2c8dcf
+- git: git@github.com:juris-futura/aeson-bson
+  commit: df14b24afeeb44895a9f4c810fad1b7932e1dfbd
