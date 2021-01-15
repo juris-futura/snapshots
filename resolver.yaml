@@ -5,53 +5,53 @@ name: gittags-master-snapshot
 
 packages:
 - git: git@github.com:juris-futura/lib-constraint-utilities
-  commit: 1a4d38365a5bb2ecb7976c1b743cf6338c648b54
+  commit: 9e51a5ed4caa05b5509e1f80de93c95c52ac3a5c
   # tag: v1.1.2, package.yaml ver:1.1.2
 
 - git: git@github.com:juris-futura/lib-extensible-sp
-  commit: c9f20986c67361695309071743f41d4dcec15406
+  commit: 41df863c363696de832e2e63b514a31501d41c3f
   # tag: v1.3.7, package.yaml v.1.3.7
 
 - git: git@github.com:juris-futura/lib-hkd
-  commit: b08e3adb966526b8925f14762e59eafec6cc8635
+  commit: a3ab235514f26edb516e74333c08c3b64c9984c2
   # tag: v2.1.1, package.yaml 2.1.1
 
 - git: git@github.com:juris-futura/lib-semantic-arrow
-  commit: 3ffc459a2ec25df0be06e429d9198dcd50cc338d
+  commit: cdbd74ce6373e730113245abc391bbb0307910d8
   # tag: v0.2.4.1, package.yaml ver:2.4.1
 
 - git: git@github.com:juris-futura/lib-basics
-  commit: 472d3597b533aba6c5cb63e08ff2db0ca91908c6
+  commit: ef399b713ea42dd20a64fe30113f2b4fd704a4ec
   # tag: v0.5.11.0, package.yaml ver:0.5.11.0
 
 - git: git@github.com:juris-futura/lib-calendar
-  commit: dc172ae60116a3e60c561f911dcd2c0defe9aab5
+  commit: 40067f9e7d379a906c39392625c05151fbf1bad6
   # tag: v0.1.1.0, package.yaml ver:0.1.1.0
 
 - git: git@github.com:juris-futura/lib-dynamic
-  commit: a2f9dbaad7b690125be3aafd99bf36f469d005da
+  commit: b18b5f2553e19e8ff07618b3d6a74a118312992a
   # tag: v2.3.2, package.yaml ver:0.2.3.2
 
 - git: git@github.com:juris-futura/lib-assemble
-  commit: 3f8cfbfc23568dcec1655c098bdbff2fdcddd565
+  commit: 75372aab04fe6e62f8671fa3a7393fb5ab621b89
   # tag: v2.3.1, package.yaml ver:2.3.1
 
 # Update 01-11-21
 
 - git: git@github.com:juris-futura/lib-web-combinators
-  commit: dd30388446652d87f2484c690793692d1248c24a
+  commit: 3d4a8cd3f057904ae7f972eb7eb5c1be6ff0fc2a
   # tag: v0.1.11.0-snpsht.2020-10-07, package.yaml ver:0.1.11.0
 
 - git: git@github.com:juris-futura/lib-servant-client-arrow
-  commit: 93dc52e35d40b56be8e2eb378a888424313263b0
+  commit: ea90a2c6f0fd1c5a62e193c4746fb1e31ec90e21
   # tag: v0.1.1.0-snpsht.2020-08-04, package.yaml ver:0.1.1.0
 
 - git: git@github.com:juris-futura/lib-azure-ds
-  commit: cc85be8b07d00f153c7b9facb872c6399f5524b9
+  commit: a9830c235ae8db86e32d1f687fc4722f861cec9f
   # tag: v0.2.6.0-snpsht.2020-07-13, package.yaml ver:0.2.6.0
 
 - git: git@github.com:juris-futura/lib-nexus-types
-  commit: f30586ea9bd9e3cc003aeaed051a8a4b0322ee9b
+  commit: a60fc60e3c7a96639158d0fd60700f98049eda13
   # tag: v0.1.1.1-snpsht.2020-10-07, package.yaml ver:0.1.1.1
 
 # Update 01-12-21
