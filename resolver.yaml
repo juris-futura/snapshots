@@ -57,35 +57,35 @@ packages:
 # Update 01-12-21
 
 - git: git@github.com:juris-futura/lib-patent-prosecution
-  commit: 3090e0e51875a6f1bb3ba0d88b9d6fcf3a3f6083
+  commit: 7af88673ebab1755466304f3a844a453a4d37988
   # tag: v5.0.0, package.yaml ver:5.0.0
 
 - git: git@github.com:juris-futura/api-fetch-documents
-  commit: 1e1395a6cf4dea5f5483519db0268549cdc4d34e
+  commit: ea0a8426b019d8cb6b7e16043eabaf919964ae2c
   # tag: v0.1.3.0-snpsht.2020-10-07, package.yaml ver:0.1.3.0
 
 - git: git@github.com:juris-futura/lib-template-client
-  commit: 679a2632202c2c613a75d48b85ce1da364d822f5
+  commit: 114ba12bdd24db19ea6d2cdbcbd258ab81554896
   # tag: v0.1.2.7-snpsht.2020-07-14, package.yaml ver:0.1.2.7
 
 - git: git@github.com:juris-futura/api-template
-  commit: c07e650ae63a44c99b0cddfa85c6d2d8781bd3c6
+  commit: ac2959cc1f9a60be02b6e2acb60921fb0c6315a1
   # tag: v0.1.1.0-snpsht.2020-07-14, package.yaml ver:0.1.1.0
 
 - git: git@github.com:juris-futura/lib-hh-services
-  commit: 257e9e12b4d1af7ef0b8dd82988de19cbffaf616
+  commit: 1d2d83fd499764b69207052dae70474d85c7294e
   # tag: v0.7.0.0, package.yaml ver:0.7.0.0
 
 - git: git@github.com:juris-futura/lib-fragment
-  commit: ca41a94732fb7cccc91676bb496260c765c2f658
+  commit: 3281b413cba059567e73a460a16c9eab2071e50f
   # tag: v0.1.1.0-snpsht.2020-07-13, package.yaml ver:0.1.1.0
 
 - git: git@github.com:juris-futura/lib-tree-parser
-  commit: 54e229468034046d1526b75695abf4c4127c027e
+  commit: 836100309b7a9f03fe718da54e5097208673b354
   # tag (not latest): v0.1.3.0-snpsht.2020-07-13, package.yaml ver:0.1.3.0
 
 - git: git@github.com:juris-futura/lib-common
-  commit: d2b22bb217d7e8130086ab791fb9e705914efb84
+  commit: ce38b94fce20e2b95eb7034ff5fd8cddc4bb089f
   # tag: v0.1.0.0-snpsht.2020-07-20, package.yaml ver:0.1.0.0
 
 # - git: git@github.com:juris-futura/lib-dbofp
