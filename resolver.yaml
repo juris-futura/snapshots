@@ -120,9 +120,9 @@ packages:
 #   commit: 2a2e4b9248651216611d7523e6a60f8347ab7f2f
 #   # tag: v0.1.0.1, package.yaml ver:0.1.0.1
 
-# - git: git@github.com:juris-futura/lib-patent-claims-parser
-#   commit: bceef78361a888196a1bc7016d9d49523f0a6b37
-#   # tag: v1.4.0-rc.7, package.yaml ver:0.1.4.0
+- git: git@github.com:juris-futura/lib-patent-claims-parser
+  commit: 53ec918134de9e99913d225984eb2c5d609d0981
+  # tag: v1.5.3-rc.1, package.yaml ver:1.5.3
 
 # - git: git@github.com:juris-futura/lib-nexus-types
 #   commit: 2b77d8a6da3029a19e62cecb336dd87e49de9f82
