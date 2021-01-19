@@ -43,7 +43,7 @@ packages:
   # tag: v0.1.11.0-snpsht.2020-10-07, package.yaml ver:0.1.11.0
 
 - git: git@github.com:juris-futura/lib-servant-client-arrow
-  commit: ea90a2c6f0fd1c5a62e193c4746fb1e31ec90e21
+  commit: 64eae221a464b412a59748ed2fe7857516ffd414
   # tag: v0.1.1.0-snpsht.2020-08-04, package.yaml ver:0.1.1.0
 
 - git: git@github.com:juris-futura/lib-azure-ds
@@ -96,28 +96,28 @@ packages:
 #   # tag: v0.3.1.1-snpsht.2020-07-13, package.yaml ver:0.3.1.1
 
 
-# - git: git@github.com:juris-futura/lib-email
-#   commit: d37ad277dc9cec9aa507f3a6cadc12276de1151a
+- git: git@github.com:juris-futura/lib-email
+  commit: d8696eec4bcd8b4aa7c39bb3758cf81fb8a364fa
 #   # tag: v0.2.0.0-snpsht.2020-10-07, package.yaml ver:0.2.0.0
 
 - git: git@github.com:juris-futura/lib-message
-  commit: be153d855e30ecce0c601ca9b6fc690f052042f4
+  commit: 495f3b945440c962620b1b5bed6f8bd534f459ef
   # tag: v5.7.0-rc.2, package.yaml ver:0.5.7.0
 
-# - git: git@github.com:juris-futura/lib-router
-#   commit: 9c2f4eeb0a798b32ce19a6fb33c3d4ac1880cd6b
+- git: git@github.com:juris-futura/lib-router
+  commit: e1bdf193ea103aea5c0b26f1c9818f27a770de5d
 #   # tag: v0.4.2.1-snpsht.2020-10-07, package.yaml ver:0.4.2.1
 
-# - git: git@github.com:juris-futura/lib-platform
-#   commit: 7e6354342672f330a7876d4e86109d9f81386235
+- git: git@github.com:juris-futura/lib-platform
+  commit: 001c184ef5e77ad23dac92d04e75fc2b2b856785
 #   # tag: v0.7.2.0, package.yaml ver:0.7.2.0
 
 # - git: git@github.com:juris-futura/lib-patent-prosecution
 #   commit: 02e39abb4909f49c83c1730f272402cb0e4a116b
 #   # tag: v0.4.0.0-snpsht.2020-08-04, package.yaml ver:0.4.0.0
 
-# - git: git@github.com:juris-futura/lib-date-parser
-#   commit: 2a2e4b9248651216611d7523e6a60f8347ab7f2f
+- git: git@github.com:juris-futura/lib-date-parser
+  commit: 2a2e4b9248651216611d7523e6a60f8347ab7f2f
 #   # tag: v0.1.0.1, package.yaml ver:0.1.0.1
 
 - git: git@github.com:juris-futura/lib-patent-claims-parser
@@ -129,7 +129,7 @@ packages:
 #   # tag: v0.1.1.1-snpsht.2020-10-07, package.yaml ver:0.1.1.1
 
 # - git: git@github.com:juris-futura/api-fetch-patents
-#   commit: 4f63100203e27704f12359ad1adb78b70697a584
+#  commit: 4f63100203e27704f12359ad1adb78b70697a584
 #   # tag: v0.1.0.0-snpsht.2020-07-13, package.yaml ver:0.1.0.0
 
 # - git: git@github.com:juris-futura/api-oa-response
