@@ -109,7 +109,7 @@ packages:
 #   # tag: v0.4.2.1-snpsht.2020-10-07, package.yaml ver:0.4.2.1
 
 - git: git@github.com:juris-futura/lib-platform
-  commit: 001c184ef5e77ad23dac92d04e75fc2b2b856785
+  commit: 02478d552f82071792132aad4cd1dae08bfdf266
 #   # tag: v0.7.2.0, package.yaml ver:0.7.2.0
 
 # - git: git@github.com:juris-futura/lib-patent-prosecution
@@ -117,7 +117,7 @@ packages:
 #   # tag: v0.4.0.0-snpsht.2020-08-04, package.yaml ver:0.4.0.0
 
 - git: git@github.com:juris-futura/lib-date-parser
-  commit: 2a2e4b9248651216611d7523e6a60f8347ab7f2f
+  commit: a42192cdacb6690b8cefdba28e1614a05562066a
 #   # tag: v0.1.0.1, package.yaml ver:0.1.0.1
 
 - git: git@github.com:juris-futura/lib-patent-claims-parser
