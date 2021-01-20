@@ -43,7 +43,7 @@ packages:
   # tag: v0.1.11.0-snpsht.2020-10-07, package.yaml ver:0.1.11.0
 
 - git: git@github.com:juris-futura/lib-servant-client-arrow
-  commit: c78bad2f4a6a6d98b8aff44065d19cfb391f08bf
+  commit: e4d2f1264ade203cf107e1b96ff422848daf53a3
   # tag: v0.1.1.0-snpsht.2020-08-04, package.yaml ver:0.1.1.0
 
 - git: git@github.com:juris-futura/lib-azure-ds
