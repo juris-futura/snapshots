@@ -69,7 +69,7 @@ packages:
   # tag: v0.1.2.7-snpsht.2020-07-14, package.yaml ver:0.1.2.7
 
 - git: git@github.com:juris-futura/api-template
-  commit: ac2959cc1f9a60be02b6e2acb60921fb0c6315a1
+  commit: c16cbcbee513dcce581d4314f9e3d7e75f84a48b
   # tag: v0.1.1.0-snpsht.2020-07-14, package.yaml ver:0.1.1.0
 
 - git: git@github.com:juris-futura/lib-hh-services
