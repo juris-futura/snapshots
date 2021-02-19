@@ -86,8 +86,8 @@ packages:
   commit: 53cb8541b62514d741a890dfd17a746682d17b57
   # tag: v0.1.1.0-snpsht.2021-02-19, package.yaml ver:0.1.1.0
 - git: git@github.com:juris-futura/api-ocr
-  commit: d126e9c6acc6b20fa432aa8598a62ff1b06ad802
-  # tag: v0.1.0.2, package.yaml ver:0.1.0.2
+  commit: 12b13bda6e707c48c8e11ba54861d6cb5791b428
+  # Missing Tag, package.yaml ver:0.1.0.2
 - git: git@github.com:juris-futura/api-patent-claims
   commit: e04b23f444418224a5f790df8108f489d49e88e4
   # tag (not latest): v1.3.0-snpsht.2021-02-19, package.yaml ver:1.3.0
@@ -98,8 +98,8 @@ packages:
   commit: 4742f9f22f6ec3b325dacaf6faed6bca1cd5248a
   # tag (not latest): v0.2.1.0-snpsht.2021-02-19, package.yaml ver:0.2.1.0
 - git: git@github.com:juris-futura/api-entity-extract
-  commit: 06515bdb65dc92f361a2363f71fa4059d9d670d0
-  # tag: v0.2.1.4-snpsht.2020-07-13, package.yaml ver:0.2.1.4
+  commit: 9473719394995e92b0967e065dd446928a8b9ba9
+  # Missing Tag, package.yaml ver:0.2.1.4
 - git: git@github.com:juris-futura/api-fetch-documents
   commit: 46701c097fa52a60b4f06f9c9dbc988b40b72bec
   # tag: v0.1.4.0-snpsht.2021-02-19, package.yaml ver:0.1.4.0
