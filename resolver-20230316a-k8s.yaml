@@ -1,0 +1,15 @@
+---
+
+# resolver: ../lts-snapshots/lts-gittags/resolver-20230316a.yaml
+resolver: https://raw.githubusercontent.com/juris-futura/snapshots/main/resolver-20230316a.yaml
+
+name: gittags-master-snapshot
+
+packages:
+- git: git@github.com:kubernetes-client/haskell.git
+  commit: 94ee7cc3ff1d2d66579f96a27d02105cd8e1748e
+  subdirs:
+    - kubernetes
+    - kubernetes-client
+
+- oidc-client-0.6.0.0
