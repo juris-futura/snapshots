@@ -6,7 +6,7 @@ resolver: https://raw.githubusercontent.com/juris-futura/snapshots/main/resolver
 name: gittags-master-snapshot
 
 packages:
-- git: git@github.com:kubernetes-client/haskell.git
+- git: git@github.com:juris-futura/k8s-haskell.git
   commit: 94ee7cc3ff1d2d66579f96a27d02105cd8e1748e
   subdirs:
     - kubernetes
