@@ -1,0 +1,143 @@
+resolver: lts-21.14
+
+name: gittags-master-snapshot
+
+packages:
+- git: git@github.com:juris-futura/lib-constraint-utilities
+  commit: 01182c50477538993c4cc9a65b0b0d1358d6fb2e
+
+- git: git@github.com:juris-futura/lib-hkd
+  commit: 3c39dff95debdedeefd14c1b205a672aacf72b38
+
+- git: git@github.com:juris-futura/lib-extensible-sp
+  commit: 974e0d94926d5c9b1c23154243ecd914c4b837f4
+
+- git: git@github.com:juris-futura/lib-semantic-arrow
+  commit: 0de88933dbb111153a8195b2131be393872cd740
+
+    ## - git: git@github.com:juris-futura/lib-juvo-common
+    ##   commit: 04f593fcd0b5f7a116de032bb7e79cc0b6532eb5
+    ##
+    ## - git: git@github.com:juris-futura/lib-web-combinators
+    ##   commit: 5e18d5c945c9fd8eabe599540538c0b0634a1793
+    ##
+    ## - git: git@github.com:juris-futura/lib-basics
+    ##   commit: 4ba3e2162c2d0bb55844fbe7a4abbe26ff0b6c10
+    ##
+    ## - git: git@github.com:juris-futura/lib-servant-client-arrow
+    ##   commit: e4fb899772dacf1a94e53835bac6444e1a0c1437
+    ##
+    ## - git: git@github.com:juris-futura/lib-email
+    ##   commit: b89dff6c4ac97f3ab108211ea976f82051820074
+    ##
+    ## - git: git@github.com:juris-futura/lib-hh-services
+    ##   commit: c35141623a62d1b1a79b2e7072f53ed021767a47
+    ##
+    ## - git: git@github.com:juris-futura/lib-dynamic
+    ##   commit: 54b8fa48a28dd4b9f191c734b293413e9797548e
+    ##
+    ## - git: git@github.com:juris-futura/lib-fragment
+    ##   commit: 6446d6f91ddd477f6a853d0fc91ae1dcbe590b22
+    ##
+    ## - git: git@github.com:juris-futura/lib-github
+    ##   commit: d07bf8cc39278cc0e268f027c1de2e69ad4e5ec7
+
+# - git: git@github.com:juris-futura/lib-message
+#   commit: 24da59441809dd88048396d5cea65d034603a1a9
+
+# - git: git@github.com:juris-futura/lib-router
+#   commit: 104f887d553a1650923e0bebb6ff97aac0379d49
+
+# - git: git@github.com:juris-futura/lib-platform
+#   commit: 76bb95061c31aa127a258fbaa88b027f52ebf841
+
+# - git: git@github.com:juris-futura/lib-patent-prosecution
+#   commit: 0681634558e1a55d647e666d7a4bc201f7525c1f
+
+# - git: git@github.com:juris-futura/lib-common
+#   commit: c1484cf6e616040468c73417a0082f647f02f410
+
+
+# # API Libs
+# - git: git@github.com:juris-futura/api-ocr
+#   commit: 12b13bda6e707c48c8e11ba54861d6cb5791b428
+
+# - git: git@github.com:juris-futura/api-recommendation
+#   commit: d4e46ace8edaa4cbbb7414e2e6b906620655612e
+
+# - git: git@github.com:juris-futura/api-learning
+#   commit: 266bceaf74a977cd62037e4eb57f61738c8d54e9
+
+# - git: git@github.com:juris-futura/api-datalake
+#   commit: 917537d8982f96f523d61d5effac724b3f8174d8
+
+    ## - git: git@github.com:juris-futura/api-template
+    ##   commit: 318862eb1e002aab931a3ead1a1109aec1ba9236
+    ##
+    ## - git: git@github.com:juris-futura/api-complete
+    ##   commit: 861a916f12a0c2b40dd3570ed58a5adcbd4976da
+    ##
+    ## - git: git@github.com:juris-futura/api-file
+    ##   commit: 3075c6a83851bdb7512d110cb6563f1ad052df77
+    ##
+    ## - git: git@github.com:juris-futura/api-configuration
+    ##   commit: b15803e12e6b3e6b8c79d704f0ab55c7c6907bbd
+
+# # Dependencies of dependencies
+    ## - git: git@github.com:juris-futura/lib-calendar
+    ##   commit: b7fceff91d81e37babeb601a45fae89d9de4ecb2
+    ##
+    ## - git: git@github.com:juris-futura/lib-tree-parser
+    ##   commit: aa48afb9aa315181347733878d8f064d43425a6a
+
+# - git: git@github.com:juris-futura/lib-azure-ds
+#   commit: 0725e76abf97893a6d65936097a1390090d5d878
+
+# - git: git@github.com:juris-futura/polysemy-jf
+#   commit: 4c93ae64cb85fba84251194608dc7343f90d9d87
+
+# - third party
+# - TypeCompose-0.9.14
+- guid-0.1.0
+- mime-0.4.0.2
+# - stm-containers-1.2
+# - stm-hamt-1.2.0.4
+# - primitive-extras-0.8
+# - primitive-unlifted-0.1.3.0
+# - primitive-0.7.1.0
+# - servant-options-0.1.0.0
+- soap-0.2.3.6
+- iconv-0.4.1.3
+# - servant-multipart-0.12 # @sha256:aa81dd0478270ade4a21b75611d5bc9cce8107df2e89c37b9964a3421629825d,2761
+- Hungarian-Munkres-0.1.5
+# - base64-bytestring-type-1
+# - type-level-sets-0.8.9.0
+# We need version 9.0  that's not in stackage yet. It seems maintained tho
+- git: git@github.com:dorchard/type-level-sets
+  commit: b340c822bc25e75d81114327dd9a9161943d9111
+
+- typed-encoding-0.5.2.3
+- symbols-0.3.0.0  
+# - sendgrid-v3-0.3.0.0
+
+# bounds not matching on hackage server version
+#
+# - haskell-stack-trace-plugin-0.1.3.0
+# - binary-instances-1.0.1
+# - vinyl-0.13.3
+# - polysemy-plugin-0.3.0.0
+# - proto-lens-0.7.1.0
+# - servant-websockets-2.0.0
+# - github-0.27
+# - git: git@github.com:juris-futura/aeson-bson
+#   commit: df14b24afeeb44895a9f4c810fad1b7932e1dfbd
+# - git: git@github.com:mongodb-haskell/mongodb
+#   commit: a9e1868d107e060eecb02bb87843f1ce96021043
+# - servant-auth-server-0.4.7.0
+# - servant-options-0.1.0.0
+
+#
+# flags:
+#   mongoDB:
+#     _old-network: false
+
