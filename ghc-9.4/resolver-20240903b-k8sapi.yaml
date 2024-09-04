@@ -1,0 +1,11 @@
+# resolver: https://raw.githubusercontent.com/juris-futura/snapshots/main/ghc-9.4/resolver-20231016a.yaml
+resolver: ../../snapshots/ghc-9.4/resolver-20240903b.yaml
+
+name: gittags-master-snapshot
+
+packages:
+- git: git@github.com:juris-futura/k8s-haskell.git
+  commit: 4f21a529d4ad78499fdbda1a5ff497205055a6f5
+  subdirs:
+    - kubernetes
+    - kubernetes-client
