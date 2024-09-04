@@ -1,5 +1,4 @@
-# resolver: https://raw.githubusercontent.com/juris-futura/snapshots/main/ghc-9.4/resolver-20231016a.yaml
-resolver: ../../snapshots/ghc-9.4/resolver-20240903b.yaml
+resolver: https://raw.githubusercontent.com/juris-futura/snapshots/main/ghc-9.4/resolver-20240903b.yaml
 
 name: gittags-master-snapshot
 
