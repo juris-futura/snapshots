@@ -1,0 +1,75 @@
+resolver: lts-23.22
+name: gittags-master-snapshot
+packages:
+- git: git@github.com:juris-futura/lib-constraint-utilities
+  commit: 01182c50477538993c4cc9a65b0b0d1358d6fb2e
+- git: git@github.com:juris-futura/lib-hkd
+  commit: 12ec49950e1728316c5bc64781be34bc6c67dada
+- git: git@github.com:juris-futura/lib-extensible-sp
+  commit: 0d4f4032c00fc0dee739d7f9df9cc6c28343c68a
+- git: git@github.com:juris-futura/lib-semantic-arrow
+  commit: 0de88933dbb111153a8195b2131be393872cd740
+- git: git@github.com:juris-futura/lib-juvo-common
+  commit: 65d21e2358549f3bbcf5c6af7e5033632e1fb538
+- git: git@github.com:juris-futura/lib-basics
+  commit: 9665a4c89f2de6c1baec6bc5574cca15f085e35f
+- git: git@github.com:juris-futura/lib-dynamic
+  commit: a0b2cd8eb6f6ff0627c735ed2b37fdb02cba7221
+- git: git@github.com:juris-futura/lib-tree-parser
+  commit: 46020f85cd70177c71e6856cf08c4cbb8df4b7de
+- git: git@github.com:juris-futura/lib-fragment
+  commit: 8dccc594c8108579439c991c165de53ba6764a0f
+- git: git@github.com:juris-futura/lib-servant-client-arrow
+  commit: 3973f20479ae134cf9ba068358b09c3d3acf8545
+- git: git@github.com:juris-futura/lib-web-combinators
+  commit: 907b290834c3d2321906b7a16f2f727fcbd741f1
+- git: git@github.com:juris-futura/lib-email
+  commit: 66be78e245df591946b6d8acfb0adbfdd1a062dd
+- git: git@github.com:juris-futura/lib-hh-services
+  commit: 93ed4e9488de78a954f3db2d8387b0e7f00b4193
+- git: git@github.com:juris-futura/lib-common
+  commit: b726d25ce1de7ab8a8411cb099ab81c998f01c75
+- git: git@github.com:juris-futura/lib-github
+  commit: 446a3754d7e4f98d2da4432a1e59f1ddbcb49087
+- git: git@github.com:juris-futura/lib-calendar
+  commit: f05f7f67b92a3f5279b020ec2eee6423cd8c35f6
+- git: git@github.com:juris-futura/api-configuration
+  commit: d4a64f05caafd6565aeb73023463f9dd10373774
+- git: git@github.com:juris-futura/api-complete
+  commit: f90b4f710dbda8892430e1ee2de28fe229f8d333
+- git: git@github.com:juris-futura/api-learning
+  commit: 32322f4e9d90c31d76bb16793714d93479402376
+- git: git@github.com:juris-futura/api-ocr
+  commit: 74004fff4fe028a286d81166373a5ebf5c3e7472
+- git: git@github.com:juris-futura/api-recommendation
+  commit: bd82d913eb99362442cd602ddf9beda6323e13e5
+- git: git@github.com:juris-futura/api-template
+  commit: 799fac6055b2197996acdd54a33862a41e5ca469
+- git: git@github.com:juris-futura/lib-patent-prosecution
+  commit: 994cb04ba25c62976ec0379830d7600491b05726
+
+# - third party
+- guid-0.1.0
+- mime-0.4.0.2
+- soap-0.2.3.6
+# - iconv-0.4.1.3
+- Hungarian-Munkres-0.1.5
+
+# We need version 9.0  that's not in stackage yet. It seems maintained tho
+# - git: git@github.com:dorchard/type-level-sets
+#   commit: b340c822bc25e75d81114327dd9a9161943d9111
+
+- typed-encoding-0.5.2.3
+- symbols-0.3.0.0
+
+- servant-options-0.1.0.0
+# - servant-auth-server-0.4.8.0
+# - servant-prometheus-1.2.0
+
+- jwt-0.11.0
+- x509-1.7.7
+- x509-store-1.6.9
+- x509-validation-1.6.12
+
+- cryptostore-0.3.1.0
+

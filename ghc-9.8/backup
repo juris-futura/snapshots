@@ -1,0 +1,3 @@
+rm resolver-20250514a.yaml
+cp resolver-20250514a.yaml.backup resolver-20250514a.yaml
+cp resolver-20250514a.yaml resolver-20250514a.yaml.backup
