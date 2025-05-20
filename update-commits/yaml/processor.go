@@ -17,9 +17,9 @@ type Package struct {
 
 // PackageEntry can be either a string or a Package
 type PackageEntry struct {
-	Package Package
-	String  string
-	IsStr   bool
+	Package         Package
+	ExternalPackage string
+	IsStr           bool
 }
 
 // UnmarshalYAML implements custom unmarshaling for PackageEntry
@@ -27,7 +27,7 @@ func (p *PackageEntry) UnmarshalYAML(value *yaml.Node) error {
 	// Try to unmarshal as string first
 	var s string
 	if err := value.Decode(&s); err == nil {
-		p.String = s
+		p.ExternalPackage = s
 		p.IsStr = true
 		return nil
 	}
@@ -45,7 +45,7 @@ func (p *PackageEntry) UnmarshalYAML(value *yaml.Node) error {
 // MarshalYAML implements custom marshaling for PackageEntry
 func (p PackageEntry) MarshalYAML() (interface{}, error) {
 	if p.IsStr {
-		return p.String, nil
+		return p.ExternalPackage, nil
 	}
 	return p.Package, nil
 }
@@ -79,7 +79,7 @@ func ProcessYAML(filePath string) error {
 		pkg := &data.Packages[i]
 		if pkg.IsStr {
 			// Handle string case if needed
-			fmt.Printf(magenta("> ")+"Processing package: %s\n", green(pkg.String))
+			fmt.Printf(magenta("> ")+"Processing package: %s\n", green(pkg.ExternalPackage))
 			continue
 		}
 
@@ -168,14 +168,22 @@ func updateContent(originalNodes *yaml.Node, data YAMLData) error {
 			if valueNode.Kind == yaml.SequenceNode {
 				valueNode.Content = nil // Clear the existing content
 				for _, pkg := range data.Packages {
-					pkgNode := &yaml.Node{
-						Kind: yaml.MappingNode,
-						Content: []*yaml.Node{
-							{Kind: yaml.ScalarNode, Value: "git"},
-							{Kind: yaml.ScalarNode, Value: pkg.Package.Git},
-							{Kind: yaml.ScalarNode, Value: "commit"},
-							{Kind: yaml.ScalarNode, Value: pkg.Package.Commit},
-						},
+					var pkgNode *yaml.Node
+					if pkg.IsStr {
+						pkgNode = &yaml.Node{
+							Kind:  yaml.ScalarNode,
+							Value: pkg.ExternalPackage,
+						}
+					} else {
+						pkgNode = &yaml.Node{
+							Kind: yaml.MappingNode,
+							Content: []*yaml.Node{
+								{Kind: yaml.ScalarNode, Value: "git"},
+								{Kind: yaml.ScalarNode, Value: pkg.Package.Git},
+								{Kind: yaml.ScalarNode, Value: "commit"},
+								{Kind: yaml.ScalarNode, Value: pkg.Package.Commit},
+							},
+						}
 					}
 					valueNode.Content = append(valueNode.Content, pkgNode)
 				}
