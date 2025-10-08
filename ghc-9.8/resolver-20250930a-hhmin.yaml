@@ -1,0 +1,61 @@
+resolver: lts-23.22
+name: gittags-master-snapshot
+packages:
+- git: git@github.com:holland-hart-ilab/lib-constraint-utilities
+  commit: 01182c50477538993c4cc9a65b0b0d1358d6fb2e
+- git: git@github.com:holland-hart-ilab/lib-hkd
+  commit: 12ec49950e1728316c5bc64781be34bc6c67dada
+- git: git@github.com:holland-hart-ilab/lib-extensible-sp
+  commit: d5d1457e33b8fca90e58e0d2b395e6a90cc4a569
+- git: git@github.com:holland-hart-ilab/lib-semantic-arrow
+  commit: 0de88933dbb111153a8195b2131be393872cd740
+- git: git@github.com:holland-hart-ilab/lib-juvo-common
+  commit: f3e5c57bc0c6946ae21bd5fac654119c16980bac
+- git: git@github.com:holland-hart-ilab/lib-basics
+  commit: 01db4810b4a682c113d5ccdc575ec8cdf710d5dd
+- git: git@github.com:holland-hart-ilab/lib-dynamic
+  commit: e22b85336d432c3329999128682025c4480963a3
+
+- git: git@github.com:holland-hart-ilab/lib-servant-client-arrow
+  commit: 3973f20479ae134cf9ba068358b09c3d3acf8545
+- git: git@github.com:holland-hart-ilab/lib-web-combinators
+  commit: 4e44bd8bf6b132ada0af8c5485a03c8dcb92b338
+- git: git@github.com:holland-hart-ilab/lib-email
+  commit: d878291e758528d2092d2981411831c5c8432ea6
+
+- git: git@github.com:holland-hart-ilab/lib-common
+  commit: b726d25ce1de7ab8a8411cb099ab81c998f01c75
+- git: git@github.com:holland-hart-ilab/lib-github
+  commit: 19c86451d79ce7102f3da568ded46de7050f41bd
+
+- git: git@github.com:holland-hart-ilab/api-configuration
+  commit: d4a64f05caafd6565aeb73023463f9dd10373774
+- git: git@github.com:holland-hart-ilab/api-complete
+  commit: f90b4f710dbda8892430e1ee2de28fe229f8d333
+
+
+# - third party
+- guid-0.1.0
+- mime-0.4.0.2
+- soap-0.2.3.6
+# - iconv-0.4.1.3
+- Hungarian-Munkres-0.1.5
+
+# We need version 9.0  that's not in stackage yet. It seems maintained tho
+# - git: git@github.com:dorchard/type-level-sets
+#   commit: b340c822bc25e75d81114327dd9a9161943d9111
+
+- typed-encoding-0.5.2.3
+- symbols-0.3.0.0
+
+- servant-options-0.1.0.0
+# - servant-auth-server-0.4.8.0
+# - servant-prometheus-1.2.0
+
+- jwt-0.11.0
+- x509-1.7.7
+- x509-store-1.6.9
+- x509-validation-1.6.12
+
+- cryptostore-0.3.1.0
+- hashtables-1.4.2
